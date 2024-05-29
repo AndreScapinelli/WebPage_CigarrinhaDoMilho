@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1920 height=1080 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=960 height=540 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -57,9 +57,9 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/BIOFocus_CigarrinhaDoMilho.loader.js";
+      var loaderUrl = buildUrl + "/WebPage_CigarrinhaDoMilho.loader.js";
       var config = {
-        dataUrl: buildUrl + "/5e8b1626be712dbc311c85fae0288de5.data",
+        dataUrl: buildUrl + "/8a10f43c75422d7ace557a0b37c1093f.data",
         frameworkUrl: buildUrl + "/efc375a04ad751047109abb3808a4ca4.js",
         codeUrl: buildUrl + "/8d1ce3aaa76fadbb6f5ed20b328e4e37.wasm",
         streamingAssetsUrl: "StreamingAssets",
@@ -94,8 +94,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "1920px";
-        canvas.style.height = "1080px";
+        canvas.style.width = "960px";
+        canvas.style.height = "540px";
       }
 
       loadingBar.style.display = "block";

@@ -1,0 +1,65 @@
+Library: C:\Users\andre\OneDrive\Documentos\Unity\Projetos\Real Games\CigarrinhaDoMilho\BIOFOCUS_CigarrinhaDoMilho\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
+--platform=Android
+--backend=burst-llvm-15
+--target=ARMV8A_AARCH64
+--global-safety-checks-setting=Off
+--meta-data-generation=False
+--dump=Function
+--float-precision=Standard
+--target-framework=NetFramework
+--assembly-defines=Assembly-CSharp;
+--assembly-defines=com.Tivadar.Best.HTTP;
+--assembly-defines=Lofelt.NiceVibrations.Demo;
+--assembly-defines=Lofelt.NiceVibrations;
+--assembly-defines=Mono.Security;
+--assembly-defines=MoreMountains.Feedbacks.Authorizations;
+--assembly-defines=MoreMountains.Feedbacks.Cinemachine;
+--assembly-defines=MoreMountains.Feedbacks;
+--assembly-defines=MoreMountains.Feedbacks.HDRP;
+--assembly-defines=MoreMountains.Feedbacks.MMTools;
+--assembly-defines=MoreMountains.Feedbacks.NiceVibrations;
+--assembly-defines=MoreMountains.Feedbacks.PostProcessing;
+--assembly-defines=MoreMountains.Feedbacks.TextMeshPro;
+--assembly-defines=MoreMountains.Feedbacks.URP;
+--assembly-defines=MoreMountains.Tools;
+--assembly-defines=mscorlib;
+--assembly-defines=System.Configuration;
+--assembly-defines=System.Core;
+--assembly-defines=System;
+--assembly-defines=System.IO.Compression;
+--assembly-defines=System.Numerics;
+--assembly-defines=System.Xml;
+--assembly-defines=Unity.Burst;
+--assembly-defines=Unity.Burst.Unsafe;
+--assembly-defines=Unity.InputSystem;
+--assembly-defines=Unity.InputSystem.ForUI;
+--assembly-defines=Unity.Profiling.Core;
+--assembly-defines=Unity.TextMeshPro;
+--assembly-defines=Unity.VisualScripting.Antlr3.Runtime;
+--assembly-defines=Unity.VisualScripting.Core;
+--assembly-defines=Unity.VisualScripting.Flow;
+--assembly-defines=Unity.XR.ARCore;
+--assembly-defines=Unity.XR.ARFoundation;
+--assembly-defines=Unity.XR.ARFoundation.InternalUtils;
+--assembly-defines=Unity.XR.ARFoundation.VisualScripting;
+--assembly-defines=Unity.XR.ARSubsystems;
+--assembly-defines=Unity.XR.CoreUtils;
+--assembly-defines=Unity.XR.Management;
+--assembly-defines=UnityEngine;
+--generate-link-xml=Temp\burst.link.xml
+--temp-folder=C:\Users\andre\OneDrive\Documentos\Unity\Projetos\Real Games\CigarrinhaDoMilho\BIOFOCUS_CigarrinhaDoMilho\Temp\Burst
+--key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer
+--decode-folder=C:\Users\andre\OneDrive\Documentos\Unity\Projetos\Real Games\CigarrinhaDoMilho\BIOFOCUS_CigarrinhaDoMilho\Library\Burst
+--output=C:\Users\andre\OneDrive\Documentos\Unity\Projetos\Real Games\CigarrinhaDoMilho\BIOFOCUS_CigarrinhaDoMilho\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
+--pdb-search-paths=Temp/ManagedSymbols/
+
+--method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
+--method=Best.HTTP.Shared.TLS.Crypto.Impl.FastChaChaEngineHelper, com.Tivadar.Best.HTTP, Version=3.0.9.0, Culture=neutral, PublicKeyToken=null::ChachaCoreImpl(System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.UInt32*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Byte*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--4da356994425371a3e6c1b78e4c0986b
+--method=Unity.Burst.Intrinsics.X86, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::DoSetCSRTrampoline(System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--da352d92cabf024fc9986011d52a4537
+--method=Best.HTTP.Shared.TLS.Crypto.Impl.FastChaCha7539EngineHelper, com.Tivadar.Best.HTTP, Version=3.0.9.0, Culture=neutral, PublicKeyToken=null::ProcessBlocks2Impl(System.Byte*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Byte*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.UInt32*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Byte*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--3e1a00fd2fc4785d2f7d27f3c7db69e4
+--method=Best.HTTP.Shared.TLS.Crypto.Impl.FastGcmBlockCipherHelper, com.Tivadar.Best.HTTP, Version=3.0.9.0, Culture=neutral, PublicKeyToken=null::DecryptBlock_Impl(System.Byte*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Byte*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Byte*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Byte*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--e01b6082d170b47294c6532bd1d712cf
+--method=Best.HTTP.Shared.TLS.Crypto.Impl.FastSalsa20EngineHelper, com.Tivadar.Best.HTTP, Version=3.0.9.0, Culture=neutral, PublicKeyToken=null::ProcessBytes(System.Byte*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Byte*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Byte*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--add952010fb8ac997e4061cfd6598f29
+--method=Best.HTTP.Shared.TLS.Crypto.Impl.BurstTables8kGcmMultiplier, com.Tivadar.Best.HTTP, Version=3.0.9.0, Culture=neutral, PublicKeyToken=null::MultiplyHImpl(System.Byte*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Best.HTTP.SecureProtocol.Org.BouncyCastle.Crypto.Modes.Gcm.GcmUtilities+FieldElement*, com.Tivadar.Best.HTTP, Version=3.0.9.0, Culture=neutral, PublicKeyToken=null|Best.HTTP.SecureProtocol.Org.BouncyCastle.Crypto.Modes.Gcm.GcmUtilities+FieldElement*, com.Tivadar.Best.HTTP, Version=3.0.9.0, Culture=neutral, PublicKeyToken=null)--9c10e77648aa75a00bfb13ecfa123f13
+--method=Best.HTTP.Shared.TLS.Crypto.Impl.FastChaChaEngineHelper, com.Tivadar.Best.HTTP, Version=3.0.9.0, Culture=neutral, PublicKeyToken=null::ImplProcessBlock_Burst(System.Byte*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Byte*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.Byte*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--1fa1e828441fd8cf7eb51647fc0de687
+--method=Unity.Burst.Intrinsics.X86, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::DoGetCSRTrampoline()--89425a97f3f500fa810ad03f0c382542
+
